@@ -1,0 +1,341 @@
+{
+  "companyInfo": {
+    "name": "شركة النخبة للتجارة والتوزيع",
+    "nameEn": "Elite Trading & Distribution Co.",
+    "phone": "+20 100 123 4567",
+    "email": "info@elitetrading.com",
+    "address": "القاهرة، مصر - شارع مصطفى النحاس، مدينة نصر",
+    "taxNumber": "384-920-115",
+    "currency": "ج.م",
+    "currencyEn": "EGP"
+  },
+  "products": [
+    {
+      "id": "PRD-101",
+      "code": "LAP-DELL-G15",
+      "name": "شاشة كمبيوتر سامسونج 27 بوصة IPS 144Hz",
+      "nameEn": "Samsung 27 Inch IPS Monitor 144Hz",
+      "category": "إلكترونيات",
+      "buyPrice": 5200,
+      "sellPrice": 6800,
+      "stockQuantity": 15,
+      "minStockAlert": 5,
+      "unit": "قطعة"
+    },
+    {
+      "id": "PRD-102",
+      "code": "KEY-LOGI-MX",
+      "name": "لوحة مفاتيح لاسلكية لوجيتك MX Keys",
+      "nameEn": "Logitech MX Keys Wireless Keyboard",
+      "category": "ملحقات",
+      "buyPrice": 2100,
+      "sellPrice": 2900,
+      "stockQuantity": 24,
+      "minStockAlert": 8,
+      "unit": "قطعة"
+    },
+    {
+      "id": "PRD-103",
+      "code": "MOU-LOGI-3S",
+      "name": "ماوس لوجيتك MX Master 3S الاحترافي",
+      "nameEn": "Logitech MX Master 3S Mouse",
+      "category": "ملحقات",
+      "buyPrice": 2400,
+      "sellPrice": 3300,
+      "stockQuantity": 4,
+      "minStockAlert": 6,
+      "unit": "قطعة"
+    },
+    {
+      "id": "PRD-104",
+      "code": "HD-SAMSUNG-1T",
+      "name": "قرص صلب SSD سامسونج 1 تيرابايت NVMe",
+      "nameEn": "Samsung 980 PRO 1TB SSD NVMe",
+      "category": "وحدات تخزين",
+      "buyPrice": 2800,
+      "sellPrice": 3700,
+      "stockQuantity": 18,
+      "minStockAlert": 5,
+      "unit": "قطعة"
+    },
+    {
+      "id": "PRD-105",
+      "code": "HED-SONY-1000",
+      "name": "سماعات سوني عازلة للضوضاء WH-1000XM5",
+      "nameEn": "Sony WH-1000XM5 ANC Headphones",
+      "category": "صوتيات",
+      "buyPrice": 8500,
+      "sellPrice": 11200,
+      "stockQuantity": 3,
+      "minStockAlert": 4,
+      "unit": "قطعة"
+    },
+    {
+      "id": "PRD-106",
+      "code": "CAM-CANON-R6",
+      "name": "كاميرا كانون EOS R6 فل فريم",
+      "nameEn": "Canon EOS R6 Mirrorless Camera",
+      "category": "إلكترونيات",
+      "buyPrice": 45000,
+      "sellPrice": 58000,
+      "stockQuantity": 2,
+      "minStockAlert": 2,
+      "unit": "قطعة"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUST-001",
+      "name": "شركة الأمل للمقاولات",
+      "nameEn": "Al-Amal Contracting",
+      "phone": "+20 111 888 999",
+      "email": "contact@alamal.com",
+      "address": "المعادي، القاهرة",
+      "balance": 12500
+    },
+    {
+      "id": "CUST-002",
+      "name": "مكتب المهندس أحمد حسن",
+      "nameEn": "Eng. Ahmed Hassan Office",
+      "phone": "+20 122 333 444",
+      "email": "ahmed.hassan@design.net",
+      "address": "المهندسين، الجيزة",
+      "balance": 0
+    },
+    {
+      "id": "CUST-003",
+      "name": "مؤسسة المستقبل البرمجية",
+      "nameEn": "Future Tech Solutions",
+      "phone": "+20 100 555 777",
+      "email": "billing@futuretech.io",
+      "address": "التجمع الخامس، القاهرة الجديدة",
+      "balance": 6800
+    },
+    {
+      "id": "CUST-004",
+      "name": "د. محمود عبد العزيز",
+      "nameEn": "Dr. Mahmoud Abdelaziz",
+      "phone": "+20 155 444 333",
+      "email": "m.abdelaziz@clinic.org",
+      "address": "الدقي، الجيزة",
+      "balance": -1500
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-001",
+      "name": "شركة التكنولوجيا العالمية لاستيراد الإلكترونيات",
+      "nameEn": "Global Tech Imports Co.",
+      "phone": "+20 2 2790 0000",
+      "email": "sales@globaltech-eg.com",
+      "address": "وسط البلد، القاهرة",
+      "balance": 45000
+    },
+    {
+      "id": "SUP-002",
+      "name": "مؤسسة المصرية للحاسبات والمحلقات",
+      "nameEn": "Egyptian Computers Est.",
+      "phone": "+20 2 2400 1111",
+      "email": "orders@egyptcomp.com",
+      "address": "شارع الطيران، مدينة نصر",
+      "balance": 12000
+    },
+    {
+      "id": "SUP-003",
+      "name": "شركة الأفق للاستيراد والتصدير",
+      "nameEn": "Horizon Import & Export",
+      "phone": "+20 3 4800 222",
+      "email": "info@horizon-trade.com",
+      "address": "محطة الرمل، الإسكندرية",
+      "balance": 0
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-2026-001",
+      "date": "2026-10-01",
+      "customerId": "CUST-001",
+      "customerName": "شركة الأمل للمقاولات",
+      "items": [
+        {
+          "productId": "PRD-101",
+          "productName": "شاشة كمبيوتر سامسونج 27 بوصة IPS 144Hz",
+          "quantity": 2,
+          "unitPrice": 6800,
+          "total": 13600
+        },
+        {
+          "productId": "PRD-102",
+          "productName": "لوحة مفاتيح لاسلكية لوجيتك MX Keys",
+          "quantity": 2,
+          "unitPrice": 2900,
+          "total": 5800
+        }
+      ],
+      "subtotal": 19400,
+      "tax": 2716,
+      "discount": 1000,
+      "total": 21116,
+      "status": "Paid",
+      "paymentMethod": "Bank Transfer",
+      "notes": "تم الاستلام بواسطة المهندس شريف"
+    },
+    {
+      "id": "INV-2026-002",
+      "date": "2026-10-04",
+      "customerId": "CUST-003",
+      "customerName": "مؤسسة المستقبل البرمجية",
+      "items": [
+        {
+          "productId": "PRD-104",
+          "productName": "قرص صلب SSD سامسونج 1 تيرابايت NVMe",
+          "quantity": 4,
+          "unitPrice": 3700,
+          "total": 14800
+        }
+      ],
+      "subtotal": 14800,
+      "tax": 2072,
+      "discount": 0,
+      "total": 16872,
+      "status": "Partial",
+      "paymentMethod": "Cash",
+      "notes": "دفعة مقدمة 10,000 ج.م والباقي مؤجل 14 يوم"
+    },
+    {
+      "id": "INV-2026-003",
+      "date": "2026-10-06",
+      "customerId": "CUST-002",
+      "customerName": "مكتب المهندس أحمد حسن",
+      "items": [
+        {
+          "productId": "PRD-105",
+          "productName": "سماعات سوني عازلة للضوضاء WH-1000XM5",
+          "quantity": 1,
+          "unitPrice": 11200,
+          "total": 11200
+        }
+      ],
+      "subtotal": 11200,
+      "tax": 1568,
+      "discount": 200,
+      "total": 12568,
+      "status": "Paid",
+      "paymentMethod": "Cash",
+      "notes": "تسليم فورى بمقر الفرع"
+    }
+  ],
+  "purchaseOrders": [
+    {
+      "id": "PO-2026-001",
+      "date": "2026-09-25",
+      "supplierId": "SUP-001",
+      "supplierName": "شركة التكنولوجيا العالمية لاستيراد الإلكترونيات",
+      "items": [
+        {
+          "productId": "PRD-101",
+          "productName": "شاشة كمبيوتر سامسونج 27 بوصة IPS 144Hz",
+          "quantity": 10,
+          "unitPrice": 5200,
+          "total": 52000
+        },
+        {
+          "productId": "PRD-104",
+          "productName": "قرص صلب SSD سامسونج 1 تيرابايت NVMe",
+          "quantity": 10,
+          "unitPrice": 2800,
+          "total": 28000
+        }
+      ],
+      "subtotal": 80000,
+      "tax": 11200,
+      "total": 91200,
+      "status": "Paid",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": "PO-2026-002",
+      "date": "2026-10-02",
+      "supplierId": "SUP-002",
+      "supplierName": "مؤسسة المصرية للحاسبات والمحلقات",
+      "items": [
+        {
+          "productId": "PRD-102",
+          "productName": "لوحة مفاتيح لاسلكية لوجيتك MX Keys",
+          "quantity": 15,
+          "unitPrice": 2100,
+          "total": 31500
+        }
+      ],
+      "subtotal": 31500,
+      "tax": 4410,
+      "total": 35910,
+      "status": "Partial",
+      "paymentMethod": "Cash"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "EXP-2026-001",
+      "date": "2026-10-01",
+      "title": "إيجار مقر الشو روم والمكتب الرئيسي",
+      "category": "إيجارات",
+      "amount": 15000,
+      "paymentMethod": "Bank Transfer",
+      "notes": "إيجار شهر أكتوبر 2026"
+    },
+    {
+      "id": "EXP-2026-002",
+      "date": "2026-10-03",
+      "title": "فاتورة الكهرباء والإنترنت والاتصالات",
+      "category": "مرافق وخدمات",
+      "amount": 3400,
+      "paymentMethod": "Cash",
+      "notes": "سداد مصروفات الفواتير الشهرية"
+    },
+    {
+      "id": "EXP-2026-003",
+      "date": "2026-10-05",
+      "title": "حملة إعلانية على فيسبوك وجوجل",
+      "category": "تسويق ودعاية",
+      "amount": 6500,
+      "paymentMethod": "Bank Transfer",
+      "notes": "حملة استهداف عملاء الجملة والتجزئة"
+    },
+    {
+      "id": "EXP-2026-004",
+      "date": "2026-10-07",
+      "title": "مصاريف شحن ونقل بضائع داخلية",
+      "category": "لوجستيات ونقل",
+      "amount": 1800,
+      "paymentMethod": "Cash",
+      "notes": "شحن طلبيات عملاء المعادي وتجمع"
+    }
+  ],
+  "journalEntries": [
+    {
+      "id": "JRN-001",
+      "date": "2026-10-01",
+      "description": "إثبات فاتورة بيع رقم INV-2026-001",
+      "accountDebit": "الصندوق / النقدية والبنك",
+      "accountCredit": "إيراد المبيعات",
+      "amount": 21116
+    },
+    {
+      "id": "JRN-002",
+      "date": "2026-10-01",
+      "description": "سداد إيجار مقر الشو روم",
+      "accountDebit": "مصروف الإيجار",
+      "accountCredit": "البنك الأهلي",
+      "amount": 15000
+    },
+    {
+      "id": "JRN-003",
+      "date": "2026-10-04",
+      "description": "إثبات مبيعات جزئية آفتورة INV-2026-002",
+      "accountDebit": "ذمم عملاء - مؤسسة المستقبل",
+      "accountCredit": "إيراد المبيعات",
+      "amount": 16872
+    }
+  ]
+}
