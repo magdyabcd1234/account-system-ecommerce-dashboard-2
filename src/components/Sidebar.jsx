@@ -27,10 +27,10 @@ export const Sidebar = ({ activeTab, setActiveTab }) => {
   ];
 
   return (
-    <aside className="w-full md:w-64 bg-white dark:bg-slate-900 border-b md:border-b-0 md:border-l rtl:md:border-l-0 rtl:md:border-r border-slate-200 dark:border-slate-800 flex-shrink-0 transition-colors duration-200 sticky md:static top-16 z-30">
+    <aside className="w-full md:w-64 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl sm:rounded-3xl rtl:rounded-r-none ltr:rounded-l-none p-3.5 sm:p-4 shadow-md dark:shadow-2xl flex-shrink-0 transition-colors duration-200 sticky top-20 z-30 self-start md:h-[calc(100vh-6rem)] flex flex-col justify-between overflow-y-auto">
       
-      {/* Navigation Links: Horizontal scroll on mobile, Vertical stack on md+ */}
-      <div className="p-2 sm:p-4 flex md:flex-col overflow-x-auto no-scrollbar gap-1.5 md:space-y-1">
+      {/* Navigation Links */}
+      <div className="flex md:flex-col overflow-x-auto no-scrollbar gap-1 md:space-y-1">
         {menuItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeTab === item.id;
@@ -38,9 +38,9 @@ export const Sidebar = ({ activeTab, setActiveTab }) => {
             <button
               key={item.id}
               onClick={() => setActiveTab(item.id)}
-              className={`flex items-center gap-2 md:gap-3 px-3 py-2 sm:px-3.5 sm:py-2.5 md:py-3 rounded-xl font-semibold text-xs sm:text-sm whitespace-nowrap transition-all duration-150 flex-shrink-0 ${
+              className={`flex items-center gap-2.5 md:gap-3 px-3.5 py-2.5 md:py-3 rounded-xl font-bold text-xs sm:text-sm whitespace-nowrap transition-all duration-150 flex-shrink-0 w-full ${
                 isActive
-                  ? 'bg-emerald-600 text-white font-bold shadow-md shadow-emerald-600/20 md:translate-x-1 rtl:md:-translate-x-1'
+                  ? 'bg-emerald-600 text-white shadow-md shadow-emerald-600/20'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100 hover:bg-slate-100 dark:hover:bg-slate-800/80'
               }`}
             >
@@ -52,13 +52,13 @@ export const Sidebar = ({ activeTab, setActiveTab }) => {
       </div>
       
       {/* Bottom Footer Info inside Sidebar (Desktop only) */}
-      <div className="hidden md:block p-4 mx-4 my-4 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 text-slate-500 dark:text-slate-400 text-xs text-center space-y-1">
+      <div className="hidden md:block p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200/80 dark:border-slate-800 text-slate-500 dark:text-slate-400 text-xs text-center space-y-1">
         <div className="flex items-center justify-center gap-1.5 font-bold text-emerald-600 dark:text-emerald-400">
           <Database className="w-3.5 h-3.5" />
           <span>Local JSON Engine</span>
         </div>
         <p className="text-[11px] text-slate-400 dark:text-slate-500">
-          Offline Mode • LocalStorage Persisted
+          Offline Mode • LocalStorage
         </p>
       </div>
     </aside>

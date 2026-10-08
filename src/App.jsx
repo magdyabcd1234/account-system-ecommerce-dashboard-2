@@ -45,14 +45,14 @@ function MainLayout() {
       {/* Top Navigation Bar */}
       <Header onOpenNewInvoice={handleOpenNewInvoice} />
 
-      {/* Body Container */}
-      <div className="flex-1 max-w-7xl w-full mx-auto flex flex-col md:flex-row">
+      {/* Body Container: Full Width so Sidebar sits flush at screen right edge in RTL without empty right space */}
+      <div className="flex-1 w-full flex flex-col md:flex-row py-4 sm:py-6 gap-4 sm:gap-6">
         
-        {/* Sidebar Navigation */}
+        {/* Sticky Sidebar docked 100% flush at the screen side edge */}
         <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
 
         {/* Main Content Area */}
-        <main className="flex-1 p-4 sm:p-6 lg:p-8 overflow-y-auto">
+        <main className="flex-1 p-4 sm:p-6 lg:p-8 overflow-y-auto max-w-7xl w-full mx-auto">
           {activeTab === 'dashboard' && (
             <Dashboard 
               onSelectInvoice={setSelectedInvoiceForPrint} 
